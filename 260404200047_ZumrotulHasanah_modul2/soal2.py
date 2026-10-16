@@ -7,7 +7,7 @@ elif total % 50000 == 0:
     bayar = total * 50 / 100
 elif total % 10000 == 0 : 
     bayar = total * 80 / 100
-elif total >= 200000 :
+elif total > 200000 :
     bayar = total * 90 / 100
 else : 
     bayar = total
