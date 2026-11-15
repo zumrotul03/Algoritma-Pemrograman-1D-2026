@@ -1,6 +1,6 @@
-n = int(input("Masukkan tinggi menara (2-15): "))
-
-if n < 2 or n > 15:
+n=0
+while n < 2 or n > 15:
+    n = int(input("Masukkan tinggi menara (2-15): "))
     print("Tinggi harus antara 2 sampai 15!")
 else:
     for i in range(1, n + 1):
@@ -13,7 +13,6 @@ else:
             baris += str(j % 10)
 
         print(baris)
-
     for i in range(n - 1, 0, -1):
         baris = " " * (n - i)
 
